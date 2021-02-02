@@ -1,5 +1,3 @@
-# JEE Project - Team 3 - V2
-
 # Table of contents:
 
 - [Pre-reqs](#pre-reqs)
