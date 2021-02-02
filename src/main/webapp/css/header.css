@@ -1,0 +1,18 @@
+/**
+    Header style
+ */
+header {
+    color: white;
+}
+
+header .logo {
+    width: 8rem;
+    height: auto;
+
+}
+
+header .navbar-header {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

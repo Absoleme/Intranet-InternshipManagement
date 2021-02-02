@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="ST2EEDB-JEE-JPA-Version">
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.DB2Dialect"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/ST2EEDB"/>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="javax.persistence.jdbc.user" value="adm"/>
+            <property name="javax.persistence.jdbc.password" value="adm"/>
+        </properties>
+    </persistence-unit>
+</persistence>

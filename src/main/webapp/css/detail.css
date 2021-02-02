@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 nov. 2020, 21:07:19
+    Author     : franc
+*/
+
+body {
+    background: #ededed;
+}
+
+.panel {
+    display: block;
+    height: 278px;
+}
+
+.freeBird {
+    margin-top: 50px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.card-block h5 {
+    margin-bottom: -0.5rem !important;
+}
+
+.card-block h3 {
+    font-weight: 300 !important;
+}
+
+.form-control {
+    padding-bottom: 0px !important;
+}
+
+.jumbotron {
+    border-radius: 15px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-pic {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2-responsive {
+    margin-bottom: 20px !important;
+    color: rgb(15, 94, 146);
+}
+
+.block {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin-top: 10px;
+}
+
+.block2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.block3 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    margin-top: 20px;
+}
+
+
+.back {
+    margin-top: 20px;
+    color: black !important;
+    background-color: #FFFFFF !important;
+}
+
+.efrei-logo {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.efrei {
+    margin-top: -25px;
+    width: 200px;
+    height: 80px;
+}
+
+.m-y-2 {
+    margin-top: 6px !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.block-title {
+    background-color: #e0e0e0;
+    padding: 15px;
+    padding-bottom: 5px !important;
+    margin-bottom: 15px;
+}
+
+.card-block {
+
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+.enterprise, .comments, .profile-inf {
+    padding: 20px;
+}

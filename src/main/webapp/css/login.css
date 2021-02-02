@@ -1,0 +1,41 @@
+/**
+    Style Login Page
+ */
+#login-page .login-panel {
+    min-height: 100vh;
+}
+
+#login-page .logo {
+    position: relative;
+    margin-top: 5rem;
+    z-index: 5;
+    width: 30rem;
+    height: auto;
+}
+
+.page-content .background-login {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: url('../assets/background/background-login.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    background-size: cover;
+}
+
+.page-content .background-login::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(rgb(14, 59, 90), rgb(0, 0, 0), rgb(14, 59, 90));
+    opacity: 0.65;
+}

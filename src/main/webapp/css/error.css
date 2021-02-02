@@ -1,0 +1,19 @@
+/**
+    Page with code error 500
+ */
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .notfound {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 110px;
+    }
+}
+
