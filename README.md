@@ -24,7 +24,7 @@ To build and run this app locally you will need a few things:
 - Clone the repository
 
 ```
-git clone https://github.com/DonThomz/M1-project-team3-jee-v2
+git clone https://github.com/Absoleme/Intranet-InternshipManagement.git
 ```
 
 - Create a JavaDB database : 
